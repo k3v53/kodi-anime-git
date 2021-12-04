@@ -25,7 +25,7 @@
 
 <addon id="plugin.video.wonderfulsubs" name="WonderfulSubs : Anime Subs &amp; Dubs" provider-name="DxCx" version="0.0.29">
   <requires>
-    <import addon="xbmc.python" version="2.25.0" />
+    <import addon="xbmc.python" version="3.00.0" />
     <import addon="script.module.requests" version="2.12.4" />
     <import addon="script.module.beautifulsoup4" version="4.5.3" />
     <import addon="script.common.plugin.cache" version="2.5.5" />
@@ -47,7 +47,7 @@
        name="InputStream Helper"
        provider-name="emilsvennesson">
     <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="xbmc.python" version="3.00.0"/>
         <import addon="script.module.kodi-six" version="0.0.2"/>
         <import addon="script.module.requests" version="2.9.1"/>
     </requires>
@@ -76,7 +76,7 @@
 
 <addon id="plugin.video.9anime" name="9Anime" provider-name="DxCx" version="0.0.51">
   <requires>
-    <import addon="xbmc.python" version="2.25.0" />
+    <import addon="xbmc.python" version="3.00.0" />
     <import addon="script.module.requests" version="2.12.4" />
     <import addon="script.common.plugin.cache" version="2.5.5" />
     <import addon="script.module.urlresolver" version="5.0.20" />
@@ -95,7 +95,7 @@
 
 <addon id="script.module.urlresolver" name="URLResolver" version="5.0.33" provider-name="tvaddons">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
+		<import addon="xbmc.python" version="3.00.0" />
 		<import addon="plugin.video.youtube" optional="true" />
 		<import addon="script.module.python.twitch" optional="true" />
 		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
@@ -120,7 +120,7 @@
        version="2.14.2"
        provider-name="kennethreitz, beenje">
   <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="xbmc.python" version="3.00.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
